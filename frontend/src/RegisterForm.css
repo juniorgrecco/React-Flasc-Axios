@@ -1,0 +1,37 @@
+.form-container {
+    border: 2px solid #097575;
+    border-radius: 10px;
+    padding: 0px 20px 20px 20px;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+input[type="email"],
+input[type="password"]{
+    width: 100%;
+    max-width: calc(100% - 20px); /* Ajuste para compensar o padding do formulário */
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box; /* Garante que o padding não aumente o tamanho total */
+    border-radius: 7px; /* Adiciona bordas arredondadas */
+}
+
+button {
+    width: 100%;
+    max-width: calc(100% - 20px); /* Ajuste para compensar o padding do formulário */
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box; /* Garante que o padding não aumente o tamanho total */
+}
+
+button {
+    background-color: #097575;
+    color: white;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #097575;
+}

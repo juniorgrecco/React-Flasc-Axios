@@ -1,0 +1,10 @@
+.navbar-container {
+    background-color: #097575;
+    text-align: center;
+    padding: 15px;
+}
+
+navbar h1 {
+    color: white;
+    margin: 0;
+}
